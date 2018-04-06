@@ -60,33 +60,39 @@ body {
 .content{
     margin-top: 10px;
     overflow: hidden;
+    padding-bottom: 50px;
 }
 .sidebar{
+    padding-top: 20px;
     overflow: hidden;
     float: left;
     width: 300px;
 /*    border-right: 2px solid #263238;*/
 }
 .sidebar h1{
-    line-height: 30px;
-    margin-bottom: 20px;
+    line-height: 40px;
+    margin-bottom: 30px;
     text-align: center;
+    font-size: 40px;
 }
 .sidebar ul{
+    margin-left: 50px;
     margin: 0;
     padding: 0;
-    width: 250px;
+    width: 350px;
 }
 .sidebar ul li{
+    margin-left: 30px;
     list-style: none;
     padding: 5px;
     border-bottom: 1.5px solid grey;
     background-color: #263238;
 }
 .sidebar ul li a{
+    text-align: center;
     margin: 30px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 27px;
     color: #DECB5B;
     line-height: 30px;
     font-family: monospace;
@@ -108,24 +114,50 @@ body {
     font-size: 28px;
 }
 
+.price{
+    margin-left: 150px;
+    float: left;
+    padding-top: 30px;
+    
+}
+
+.price h1,h2{
+    padding: 10px;
+}
 .article{
-    float: right;
-    width: 805px;
+    
+    width: 100%;
     padding-left: 35px;
     border-left: 3px solid #263238;
+    overflow: hidden;
+    padding-bottom: 60px;
 }
 .article h1{
     text-align: center;
+    
     line-height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     
 }
 .article p{
+
     font-family: monospace;
     font-size: 18px;
     font-weight: normal;
     line-height: 26px;
 }
+.location{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.location h1{
+    margin-bottom: 20px;
+}
+.location h1,h2{
+    text-align: center;
+    padding: 10px;
+} 
+
 footer{
 /*    display: inline-block;*/
     margin-top: 25px;
